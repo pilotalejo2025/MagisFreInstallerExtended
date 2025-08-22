@@ -1,0 +1,32 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ale.magisfreeinstaller">
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <application
+        android:allowBackup="true"
+        android:label="Magis Free Installer"
+        android:theme="@style/Theme.MagisFreeInstaller"
+        android:supportsRtl="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <queries>
+        <package android:name="tv.pluto.android"/>
+        <package android:name="com.univision.vix"/>
+        <package android:name="plex"/>
+        <package android:name="com.canela.tv"/>
+        <package android:name="tv.distrotv"/>
+        <package android:name="studio.scillarium.ottnavigator"/>
+        <package android:name="com.nathnetwork.xciptv"/>
+        <package android:name="com.crunchyroll.crunchyroid"/>
+        <package android:name="com.tubitv"/>
+        <package android:name="com.digitalmediari.retrocrush"/>
+    </queries>
+</manifest>

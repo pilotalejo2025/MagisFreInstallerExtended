@@ -1,0 +1,51 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magis Free Installer – Extended"
+            android:textSize="22sp"
+            android:paddingBottom="12dp"/>
+
+        <!-- VOD y TV -->
+        <Button android:id="@+id/btnPluto" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar Pluto TV"/>
+        <Button android:id="@+id/btnVix" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar ViX"/>
+        <Button android:id="@+id/btnPlex" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar Plex TV"/>
+        <Button android:id="@+id/btnCanela" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar Canela TV"/>
+        <Button android:id="@+id/btnDistro" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar Distro TV"/>
+
+        <!-- Películas y Anime -->
+        <View android:layout_width="match_parent" android:layout_height="12dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Películas y Anime" android:textStyle="bold"/>
+        <Button android:id="@+id/btnTubi" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar Tubi TV"/>
+        <Button android:id="@+id/btnCrunchy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar Crunchyroll"/>
+        <Button android:id="@+id/btnRetroCrush" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar RetroCrush"/>
+
+        <!-- IPTV apps -->
+        <View android:layout_width="match_parent" android:layout_height="12dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IPTV" android:textStyle="bold"/>
+        <Button android:id="@+id/btnTivimate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Descargar TiviMate (APKMirror)"/>
+        <Button android:id="@+id/btnOttNav" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar OTT Navigator"/>
+        <Button android:id="@+id/btnXciptv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Instalar XCIPTV"/>
+
+        <!-- Listas y subtítulos -->
+        <View android:layout_width="match_parent" android:layout_height="16dp"/>
+        <Button android:id="@+id/btnExportLists" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Exportar listas M3U (incluye Movies y Anime)"/>
+        <Button android:id="@+id/btnSubsTips" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cómo activar subtítulos (CC)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Nota: esta app abre Play Store o enlaces seguros. Las listas M3U incluidas son de ejemplo y su contenido debe ser de acceso libre."/>
+    </LinearLayout>
+</ScrollView>
